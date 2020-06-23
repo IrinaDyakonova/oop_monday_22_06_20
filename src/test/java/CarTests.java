@@ -7,7 +7,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class CarTests {
-
+    private static final double DELTA = 0.001;
     private double speed;
     private Car car;
 
@@ -54,12 +54,12 @@ public class CarTests {
     @Test
     public void testChangeCurrentSpeed() {
         car.changeCurrentSpeed(-5);
-        assertEquals(0, car.getSpeedAtTheMoment(), 0.001);
+        assertEquals(0, car.getSpeedAtTheMoment(), DELTA);
         car.addPassengerInTheCar();
         car.changeCurrentSpeed(5);
-        assertEquals(5, car.getSpeedAtTheMoment(), 0.001);
+        assertEquals(5, car.getSpeedAtTheMoment(), DELTA);
         car.changeCurrentSpeed(15);
-        assertEquals(15, car.getSpeedAtTheMoment(), 0.001);
+        assertEquals(15, car.getSpeedAtTheMoment(), DELTA);
 
     }
 }
