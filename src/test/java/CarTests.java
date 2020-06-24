@@ -15,7 +15,7 @@ public class CarTests {
     public void initCar() {
         Random random = new Random();
         speed = random.nextInt(100) + 100;
-        car = new Car(LocalDate.of(2020,5,20), "gas", speed);
+        car = new Car(LocalDate.of(2020,5,20), "gas", speed, 4, 5);
     }
 
     @Test
@@ -49,6 +49,10 @@ public class CarTests {
     public void addNewWheel() {
         car.addNewWheel(3);
         assertEquals(7, car.getCountOfWheels());
+        car.addNewWheel(4);
+        assertEquals(11, car.getCountOfWheels());
+
+
     }
 
     @Test

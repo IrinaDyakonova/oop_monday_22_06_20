@@ -1,11 +1,12 @@
 package models;
 
+import dependencyinjection.ConsumerCarWheel;
 import interfaces.PrintInterface;
 import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.Random;
 
-public class Car implements PrintInterface {
+public class Car implements PrintInterface, ConsumerCarWheel {
     private final LocalDate dateOfManufacture;
     private final String engineType;
     private final double maxSpeed;
@@ -16,18 +17,23 @@ public class Car implements PrintInterface {
     private final CarDoor[] carDoors;
     private CarWheel[] carWheels;
 
-    public Car(LocalDate dateOfManufacture, String engineType, double maxSpeed) {
+    public Car(
+            LocalDate dateOfManufacture,
+            String engineType,
+            double maxSpeed,
+            int numberOfDoor,
+            int passengerCapacity) {
         this.dateOfManufacture = dateOfManufacture;
         this.engineType = engineType;
-        this.carDoors = new CarDoor[4];
+        this.carDoors = new CarDoor[numberOfDoor];
         this.carWheels = new CarWheel[4];
         for (int i = 0; i < carWheels.length; i++) {
-            carWheels[i] = new CarWheel();
+            carWheels[i] = creatCarWheel();
         }
         Random random = new Random();
         this.maxSpeed = maxSpeed;
         this.accelerationTime = random.nextInt(10) + 5;
-        this.passengerCapacity = random.nextInt(5) + 1;
+        this.passengerCapacity = passengerCapacity;
         this.numberOfPassengersAtTheMoment = 0;
     }
 
@@ -88,7 +94,7 @@ public class Car implements PrintInterface {
             }
         }
         for (; i < newCarWheels.length; i++) {
-            newCarWheels[i] = new CarWheel();
+            newCarWheels[i] = creatCarWheel();
             newCarWheels[i].newWheel();
         }
 
@@ -99,16 +105,16 @@ public class Car implements PrintInterface {
         if (this.numberOfPassengersAtTheMoment == 0) {
             return 0;
         }
-        double min = 0;
+        double maxWheelWear = 0;
         if (this.carWheels.length > 0) {
-            min = carWheels[0].getState();
+            maxWheelWear = carWheels[0].getState();
             for (int i = 1; i < carWheels.length; i++) {
-                if (carWheels[i].getState() < min) {
-                    min = carWheels[i].getState();
+                if (carWheels[i].getState() < maxWheelWear) {
+                    maxWheelWear = carWheels[i].getState();
                 }
             }
         }
-        return (maxSpeed * min);
+        return (maxSpeed * maxWheelWear);
     }
 
     @Override
@@ -124,5 +130,10 @@ public class Car implements PrintInterface {
                 + ", carDoors=" + Arrays.toString(carDoors)
                 + ", carWheels=" + Arrays.toString(carWheels)
                 + '}';
+    }
+
+    @Override
+    public CarWheel creatCarWheel() {
+        return new CarWheel();
     }
 }
