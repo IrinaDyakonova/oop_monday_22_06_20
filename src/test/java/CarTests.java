@@ -15,7 +15,7 @@ public class CarTests {
     public void initCar() {
         Random random = new Random();
         speed = random.nextInt(100) + 100;
-        car = new Car(LocalDate.of(2020,5,20), "gas", speed, 4, 5);
+        car = new Car(LocalDate.of(2020,5,20), "gas", speed, 4, 5, carDoors);
     }
 
     @Test
