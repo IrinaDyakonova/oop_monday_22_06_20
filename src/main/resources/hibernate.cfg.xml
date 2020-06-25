@@ -11,8 +11,8 @@
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.hbm2ddl.auto">create-drop</property>
 
-        <mapping class="models.CarWheel" />
-        <mapping class="models.Car" />
-        <mapping class="models.CarDoor" />
+        <mapping class="hibernatehw.models.CarWheel" />
+        <mapping class="hibernatehw.models.Car" />
+        <mapping class="hibernatehw.models.CarDoor" />
     </session-factory>
 </hibernate-configuration>

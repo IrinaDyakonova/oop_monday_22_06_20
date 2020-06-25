@@ -1,0 +1,1128 @@
+2020-06-25 13:06:56 DEBUG logging:28 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-06-25 13:06:56 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2020-06-25 13:06:56 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2020-06-25 13:06:56 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2020-06-25 13:06:56 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-25 13:06:56 DEBUG Environment:199 - HHH000206: hibernate.properties not found
+2020-06-25 13:06:57 DEBUG LocalXmlResourceResolver:57 - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+2020-06-25 13:06:58 DEBUG JaxbCfgProcessor:116 - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2020-06-25 13:06:59 DEBUG Configuration:722 - Building session factory using internal StandardServiceRegistryBuilder
+2020-06-25 13:06:59 DEBUG ServiceBinding:68 - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2020-06-25 13:06:59 DEBUG Configuration:652 - Building session factory using provided StandardServiceRegistry
+2020-06-25 13:06:59 DEBUG RegionFactoryInitiator:118 - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2020-06-25 13:06:59 DEBUG RegionFactoryInitiator:49 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2020-06-25 13:06:59 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration boolean -> org.hibernate.type.BooleanType@18a136ac
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration boolean -> org.hibernate.type.BooleanType@18a136ac
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@18a136ac
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4fad9bb2
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@1941a8ff
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration yes_no -> org.hibernate.type.YesNoType@2c1156a7
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration byte -> org.hibernate.type.ByteType@61a88b8c
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration byte -> org.hibernate.type.ByteType@61a88b8c
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@61a88b8c
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration character -> org.hibernate.type.CharacterType@77258e59
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration char -> org.hibernate.type.CharacterType@77258e59
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@77258e59
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration short -> org.hibernate.type.ShortType@41d426b5
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration short -> org.hibernate.type.ShortType@41d426b5
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@41d426b5
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration integer -> org.hibernate.type.IntegerType@2e2ff723
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration int -> org.hibernate.type.IntegerType@2e2ff723
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@2e2ff723
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration long -> org.hibernate.type.LongType@46944ca9
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration long -> org.hibernate.type.LongType@46944ca9
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@46944ca9
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration float -> org.hibernate.type.FloatType@2a448449
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration float -> org.hibernate.type.FloatType@2a448449
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2a448449
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration double -> org.hibernate.type.DoubleType@517566b
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration double -> org.hibernate.type.DoubleType@517566b
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@517566b
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@55322aab
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@55322aab
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@126945f9
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@126945f9
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration string -> org.hibernate.type.StringType@4879dfad
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.String -> org.hibernate.type.StringType@4879dfad
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@2eee3069
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@12c7a01b
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration url -> org.hibernate.type.UrlType@737a135b
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@737a135b
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration Duration -> org.hibernate.type.DurationType@4ce7fffa
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@4ce7fffa
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration Instant -> org.hibernate.type.InstantType@1852a3ff
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@1852a3ff
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@eda25e5
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@eda25e5
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@6179e425
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@6179e425
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@1c32386d
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@1c32386d
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@53bd8fca
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@53bd8fca
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@1199fe66
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@1199fe66
+2020-06-25 13:07:00 DEBUG BasicTypeRegistry:157 - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@cd1d761
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@cd1d761
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration date -> org.hibernate.type.DateType@604c5de8
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@604c5de8
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration time -> org.hibernate.type.TimeType@5d8bafa9
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@5d8bafa9
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration timestamp -> org.hibernate.type.TimestampType@6e35bc3d
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@6e35bc3d
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@6e35bc3d
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@1e8ce150
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration calendar -> org.hibernate.type.CalendarType@366ac49b
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@366ac49b
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@366ac49b
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@44b3606b
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@5b202a3a
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration locale -> org.hibernate.type.LocaleType@1ecee32c
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@1ecee32c
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration currency -> org.hibernate.type.CurrencyType@40844aab
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@40844aab
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@6d23017e
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@6d23017e
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration class -> org.hibernate.type.ClassType@10ded6a9
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@10ded6a9
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@373ebf74
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@373ebf74
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@5a9d6f02
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration binary -> org.hibernate.type.BinaryType@241e8ea6
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration byte[] -> org.hibernate.type.BinaryType@241e8ea6
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration [B -> org.hibernate.type.BinaryType@241e8ea6
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@3016fd5e
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@3016fd5e
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@3016fd5e
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration row_version -> org.hibernate.type.RowVersionType@42463763
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration image -> org.hibernate.type.ImageType@fade1fc
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration characters -> org.hibernate.type.CharArrayType@2e8e8225
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration char[] -> org.hibernate.type.CharArrayType@2e8e8225
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration [C -> org.hibernate.type.CharArrayType@2e8e8225
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@39a8312f
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@39a8312f
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@39a8312f
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration text -> org.hibernate.type.TextType@51972dc7
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration ntext -> org.hibernate.type.NTextType@31000e60
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration blob -> org.hibernate.type.BlobType@2dd80673
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@2dd80673
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@674bd420
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration clob -> org.hibernate.type.ClobType@732f29af
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@732f29af
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration nclob -> org.hibernate.type.NClobType@2f17e30d
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@2f17e30d
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@615091b8
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@260e86a1
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration serializable -> org.hibernate.type.SerializableType@13518f37
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration object -> org.hibernate.type.ObjectType@42f8285e
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@42f8285e
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@6b53bcc2
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@180da663
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@a43ce46
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@340da44c
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@424ebba3
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@37052337
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@2320fa6f
+2020-06-25 13:07:01 DEBUG BasicTypeRegistry:157 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@7a560583
+2020-06-25 13:07:01 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2020-06-25 13:07:01 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2020-06-25 13:07:01 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2020-06-25 13:07:01 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2020-06-25 13:07:01 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2020-06-25 13:07:01 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2020-06-25 13:07:01 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2020-06-25 13:07:01 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2020-06-25 13:07:01 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2020-06-25 13:07:01 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2020-06-25 13:07:01 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2020-06-25 13:07:01 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2020-06-25 13:07:01 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2020-06-25 13:07:01 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2020-06-25 13:07:01 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-25 13:07:01 INFO  pooling:115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/car?serverTimezone=UTC]
+2020-06-25 13:07:01 INFO  pooling:121 - HHH10001001: Connection properties: {password=1234, user=irina}
+2020-06-25 13:07:01 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2020-06-25 13:07:01 DEBUG DriverManagerConnectionProviderImpl:384 - Initializing Connection pool with 1 Connections
+2020-06-25 13:07:01 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-06-25 13:07:09 DEBUG JdbcEnvironmentInitiator:72 - Database ->
+       name : MySQL
+    version : 8.0.20
+      major : 8
+      minor : 0
+2020-06-25 13:07:09 DEBUG JdbcEnvironmentInitiator:83 - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.20 (Revision: afc0a13cd3c5a0bf57eaa809ee0ee6df1fd5ac9b)
+      major : 8
+      minor : 0
+2020-06-25 13:07:09 DEBUG JdbcEnvironmentInitiator:389 - JDBC version : 4.2
+2020-06-25 13:07:09 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-25 13:07:09 DEBUG IdentifierHelperBuilder:113 - JDBC driver metadata reported database stores quoted identifiers in more than one case
+2020-06-25 13:07:11 DEBUG IdentifierHelperBuilder:187 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2020-06-25 13:07:11 DEBUG Namespace:51 - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2020-06-25 13:07:11 DEBUG TypeConfiguration$Scope:152 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@189b5fb1] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@783ec989]
+2020-06-25 13:07:11 DEBUG AnnotationBinder:557 - Binding entity from annotated class: hibernateHw.models.CarWheel
+2020-06-25 13:07:11 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2020-06-25 13:07:11 DEBUG EntityBinder:430 - Import with entity name CarWheel
+2020-06-25 13:07:11 DEBUG EntityBinder:873 - Bind entity hibernateHw.models.CarWheel on table carWheel
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(carWheel), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG PropertyBinder:175 - MetadataSourceProcessor property id with lazy=false
+2020-06-25 13:07:12 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernateHw.models.CarWheel:id]
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:411 - building SimpleValue for id
+2020-06-25 13:07:12 DEBUG PropertyBinder:266 - Building property id
+2020-06-25 13:07:12 DEBUG BinderHelper:644 - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(carWheel), mappingColumn=tireCondition, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG PropertyBinder:175 - MetadataSourceProcessor property tireCondition with lazy=false
+2020-06-25 13:07:12 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernateHw.models.CarWheel:tireCondition]
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:411 - building SimpleValue for tireCondition
+2020-06-25 13:07:12 DEBUG PropertyBinder:266 - Building property tireCondition
+2020-06-25 13:07:12 DEBUG AnnotationBinder:557 - Binding entity from annotated class: hibernateHw.models.Car
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2020-06-25 13:07:12 DEBUG EntityBinder:430 - Import with entity name Car
+2020-06-25 13:07:12 DEBUG EntityBinder:873 - Bind entity hibernateHw.models.Car on table car
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(car), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG PropertyBinder:175 - MetadataSourceProcessor property id with lazy=false
+2020-06-25 13:07:12 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernateHw.models.Car:id]
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:411 - building SimpleValue for id
+2020-06-25 13:07:12 DEBUG PropertyBinder:266 - Building property id
+2020-06-25 13:07:12 DEBUG BinderHelper:644 - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(car), mappingColumn=accelerationTime, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG PropertyBinder:175 - MetadataSourceProcessor property accelerationTime with lazy=false
+2020-06-25 13:07:12 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernateHw.models.Car:accelerationTime]
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:411 - building SimpleValue for accelerationTime
+2020-06-25 13:07:12 DEBUG PropertyBinder:266 - Building property accelerationTime
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(car), mappingColumn=carDoors, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(car), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(car), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(car), mappingColumn=carDoors_KEY, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='carDoors_KEY', referencedColumn='null', mappedBy='null'}
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+2020-06-25 13:07:12 DEBUG CollectionBinder:450 - Collection role: hibernateHw.models.Car.carDoors
+2020-06-25 13:07:12 DEBUG PropertyBinder:266 - Building property carDoors
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(car), mappingColumn=carWheels, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(car), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(car), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(car), mappingColumn=carWheels_KEY, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='carWheels_KEY', referencedColumn='null', mappedBy='null'}
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+2020-06-25 13:07:12 DEBUG CollectionBinder:450 - Collection role: hibernateHw.models.Car.carWheels
+2020-06-25 13:07:12 DEBUG PropertyBinder:266 - Building property carWheels
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(car), mappingColumn=dateOfManufacture, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG PropertyBinder:175 - MetadataSourceProcessor property dateOfManufacture with lazy=false
+2020-06-25 13:07:12 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernateHw.models.Car:dateOfManufacture]
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:411 - building SimpleValue for dateOfManufacture
+2020-06-25 13:07:12 DEBUG PropertyBinder:266 - Building property dateOfManufacture
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(car), mappingColumn=engineType, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG PropertyBinder:175 - MetadataSourceProcessor property engineType with lazy=false
+2020-06-25 13:07:12 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernateHw.models.Car:engineType]
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:411 - building SimpleValue for engineType
+2020-06-25 13:07:12 DEBUG PropertyBinder:266 - Building property engineType
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(car), mappingColumn=maxSpeed, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG PropertyBinder:175 - MetadataSourceProcessor property maxSpeed with lazy=false
+2020-06-25 13:07:12 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernateHw.models.Car:maxSpeed]
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:411 - building SimpleValue for maxSpeed
+2020-06-25 13:07:12 DEBUG PropertyBinder:266 - Building property maxSpeed
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(car), mappingColumn=numberOfPassengersAtTheMoment, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG PropertyBinder:175 - MetadataSourceProcessor property numberOfPassengersAtTheMoment with lazy=false
+2020-06-25 13:07:12 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernateHw.models.Car:numberOfPassengersAtTheMoment]
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:411 - building SimpleValue for numberOfPassengersAtTheMoment
+2020-06-25 13:07:12 DEBUG PropertyBinder:266 - Building property numberOfPassengersAtTheMoment
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(car), mappingColumn=passengerCapacity, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG PropertyBinder:175 - MetadataSourceProcessor property passengerCapacity with lazy=false
+2020-06-25 13:07:12 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernateHw.models.Car:passengerCapacity]
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:411 - building SimpleValue for passengerCapacity
+2020-06-25 13:07:12 DEBUG PropertyBinder:266 - Building property passengerCapacity
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(car), mappingColumn=speedAtTheMoment, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG PropertyBinder:175 - MetadataSourceProcessor property speedAtTheMoment with lazy=false
+2020-06-25 13:07:12 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernateHw.models.Car:speedAtTheMoment]
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:411 - building SimpleValue for speedAtTheMoment
+2020-06-25 13:07:12 DEBUG PropertyBinder:266 - Building property speedAtTheMoment
+2020-06-25 13:07:12 DEBUG AnnotationBinder:557 - Binding entity from annotated class: hibernateHw.models.CarDoor
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2020-06-25 13:07:12 DEBUG EntityBinder:430 - Import with entity name CarDoor
+2020-06-25 13:07:12 DEBUG EntityBinder:873 - Bind entity hibernateHw.models.CarDoor on table carDoor
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(carDoor), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG PropertyBinder:175 - MetadataSourceProcessor property id with lazy=false
+2020-06-25 13:07:12 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernateHw.models.CarDoor:id]
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:411 - building SimpleValue for id
+2020-06-25 13:07:12 DEBUG PropertyBinder:266 - Building property id
+2020-06-25 13:07:12 DEBUG BinderHelper:644 - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(carDoor), mappingColumn=doorCondition, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG PropertyBinder:175 - MetadataSourceProcessor property doorCondition with lazy=false
+2020-06-25 13:07:12 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernateHw.models.CarDoor:doorCondition]
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:411 - building SimpleValue for doorCondition
+2020-06-25 13:07:12 DEBUG PropertyBinder:266 - Building property doorCondition
+2020-06-25 13:07:12 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(carDoor), mappingColumn=windowCondition, insertable=true, updatable=true, unique=false}
+2020-06-25 13:07:12 DEBUG PropertyBinder:175 - MetadataSourceProcessor property windowCondition with lazy=false
+2020-06-25 13:07:12 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernateHw.models.CarDoor:windowCondition]
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:411 - building SimpleValue for windowCondition
+2020-06-25 13:07:12 DEBUG PropertyBinder:266 - Building property windowCondition
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for id
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for tireCondition
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for id
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for accelerationTime
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for dateOfManufacture
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for engineType
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for maxSpeed
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for numberOfPassengersAtTheMoment
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for passengerCapacity
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for speedAtTheMoment
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for id
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for doorCondition
+2020-06-25 13:07:12 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for windowCondition
+2020-06-25 13:07:12 DEBUG PrimaryKey:35 - Forcing column [id] to be non-null as it is part of the primary key for table [carwheel]
+2020-06-25 13:07:12 DEBUG PrimaryKey:35 - Forcing column [id] to be non-null as it is part of the primary key for table [car]
+2020-06-25 13:07:12 DEBUG PrimaryKey:35 - Forcing column [id] to be non-null as it is part of the primary key for table [cardoor]
+2020-06-25 13:07:12 DEBUG CollectionSecondPass:50 - Second pass for collection: hibernateHw.models.Car.carWheels
+2020-06-25 13:07:12 DEBUG CollectionBinder:1316 - Binding a OneToMany: hibernateHw.models.Car.carWheels through an association table
+2020-06-25 13:07:12 DEBUG CollectionSecondPass:67 - Mapped collection key: Car_id, element: carWheels_id
+2020-06-25 13:07:12 DEBUG CollectionSecondPass:50 - Second pass for collection: hibernateHw.models.Car.carDoors
+2020-06-25 13:07:12 DEBUG CollectionBinder:1316 - Binding a OneToMany: hibernateHw.models.Car.carDoors through an association table
+2020-06-25 13:07:12 DEBUG CollectionSecondPass:67 - Mapped collection key: Car_id, element: carDoors_id
+2020-06-25 13:07:12 DEBUG InFlightMetadataCollectorImpl:1869 - Resolving reference to class: hibernateHw.models.CarDoor
+2020-06-25 13:07:12 DEBUG InFlightMetadataCollectorImpl:1869 - Resolving reference to class: hibernateHw.models.Car
+2020-06-25 13:07:12 DEBUG InFlightMetadataCollectorImpl:1869 - Resolving reference to class: hibernateHw.models.CarWheel
+2020-06-25 13:07:12 DEBUG InFlightMetadataCollectorImpl:1869 - Resolving reference to class: hibernateHw.models.Car
+2020-06-25 13:07:12 DEBUG InFlightMetadataCollectorImpl:1869 - Resolving reference to class: hibernateHw.models.CarDoor
+2020-06-25 13:07:12 DEBUG InFlightMetadataCollectorImpl:1869 - Resolving reference to class: hibernateHw.models.Car
+2020-06-25 13:07:12 DEBUG InFlightMetadataCollectorImpl:1869 - Resolving reference to class: hibernateHw.models.CarWheel
+2020-06-25 13:07:12 DEBUG InFlightMetadataCollectorImpl:1869 - Resolving reference to class: hibernateHw.models.Car
+2020-06-25 13:07:12 DEBUG SessionFactoryImpl:201 - Building session factory
+2020-06-25 13:07:12 DEBUG Settings:68 - SessionFactory name : null
+2020-06-25 13:07:12 DEBUG Settings:69 - Automatic flush during beforeCompletion(): enabled
+2020-06-25 13:07:12 DEBUG Settings:70 - Automatic session close at end of transaction: disabled
+2020-06-25 13:07:12 DEBUG Settings:72 - Statistics: disabled
+2020-06-25 13:07:12 DEBUG Settings:74 - Deleted entity synthetic identifier rollback: disabled
+2020-06-25 13:07:12 DEBUG Settings:75 - Default entity-mode: pojo
+2020-06-25 13:07:12 DEBUG Settings:76 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2020-06-25 13:07:12 DEBUG Settings:77 - Allow initialization of lazy state outside session : disabled
+2020-06-25 13:07:12 DEBUG Settings:79 - Using BatchFetchStyle : LEGACY
+2020-06-25 13:07:12 DEBUG Settings:80 - Default batch fetch size: -1
+2020-06-25 13:07:12 DEBUG Settings:81 - Maximum outer join fetch depth: 2
+2020-06-25 13:07:12 DEBUG Settings:82 - Default null ordering: NONE
+2020-06-25 13:07:12 DEBUG Settings:83 - Order SQL updates by primary key: disabled
+2020-06-25 13:07:12 DEBUG Settings:84 - Order SQL inserts for batching: disabled
+2020-06-25 13:07:12 DEBUG Settings:86 - multi-tenancy strategy : NONE
+2020-06-25 13:07:12 DEBUG Settings:88 - JTA Track by Thread: enabled
+2020-06-25 13:07:12 DEBUG Settings:90 - Query language substitutions: {}
+2020-06-25 13:07:12 DEBUG Settings:91 - Named query checking : enabled
+2020-06-25 13:07:12 DEBUG Settings:93 - Second-level cache: disabled
+2020-06-25 13:07:12 DEBUG Settings:94 - Second-level query cache: disabled
+2020-06-25 13:07:12 DEBUG Settings:95 - Second-level query cache factory: null
+2020-06-25 13:07:12 DEBUG Settings:96 - Second-level cache region prefix: null
+2020-06-25 13:07:12 DEBUG Settings:97 - Optimize second-level cache for minimal puts: disabled
+2020-06-25 13:07:12 DEBUG Settings:98 - Structured second-level cache entries: disabled
+2020-06-25 13:07:12 DEBUG Settings:99 - Second-level cache direct-reference entries: disabled
+2020-06-25 13:07:12 DEBUG Settings:100 - Automatic eviction of collection cache: disabled
+2020-06-25 13:07:12 DEBUG Settings:102 - JDBC batch size: 15
+2020-06-25 13:07:12 DEBUG Settings:103 - JDBC batch updates for versioned data: enabled
+2020-06-25 13:07:12 DEBUG Settings:104 - Scrollable result sets: enabled
+2020-06-25 13:07:12 DEBUG Settings:105 - Wrap result sets: disabled
+2020-06-25 13:07:12 DEBUG Settings:106 - JDBC3 getGeneratedKeys(): enabled
+2020-06-25 13:07:12 DEBUG Settings:107 - JDBC result set fetch size: null
+2020-06-25 13:07:12 DEBUG Settings:108 - Connection release mode: AFTER_TRANSACTION
+2020-06-25 13:07:12 DEBUG Settings:109 - Generate SQL with comments: disabled
+2020-06-25 13:07:12 DEBUG Settings:111 - JPA compliance - query : disabled
+2020-06-25 13:07:12 DEBUG Settings:112 - JPA compliance - closed-handling : disabled
+2020-06-25 13:07:12 DEBUG Settings:113 - JPA compliance - lists : disabled
+2020-06-25 13:07:12 DEBUG Settings:114 - JPA compliance - transactions : disabled
+2020-06-25 13:07:13 DEBUG SessionFactoryImpl:256 - Session factory constructed with filter configurations : {}
+2020-06-25 13:07:13 DEBUG SessionFactoryImpl:257 - Instantiating session factory with properties: {java.specification.version=14, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1251, java.class.path=C:\Users\Irina\IdeaProjects\monday_22_06_20\target\classes;C:\Users\Irina\.m2\repository\org\hibernate\hibernate-core\5.4.15.Final\hibernate-core-5.4.15.Final.jar;C:\Users\Irina\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\Irina\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\Irina\.m2\repository\org\javassist\javassist\3.24.0-GA\javassist-3.24.0-GA.jar;C:\Users\Irina\.m2\repository\net\bytebuddy\byte-buddy\1.10.10\byte-buddy-1.10.10.jar;C:\Users\Irina\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Irina\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\Irina\.m2\repository\org\jboss\jandex\2.1.3.Final\jandex-2.1.3.Final.jar;C:\Users\Irina\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Irina\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Irina\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\Irina\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.0.Final\hibernate-commons-annotations-5.1.0.Final.jar;C:\Users\Irina\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Irina\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\Irina\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\Irina\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\Irina\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\Irina\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\Irina\.m2\repository\org\hibernate\hibernate-java8\5.4.15.Final\hibernate-java8-5.4.15.Final.jar;C:\Users\Irina\.m2\repository\mysql\mysql-connector-java\8.0.20\mysql-connector-java-8.0.20.jar;C:\Users\Irina\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\Irina\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=Europe/Bucharest, user.country.format=UA, java.vm.specification.version=14, os.name=Windows 10, sun.java.launcher=SUN_STANDARD, user.country=RU, sun.boot.library.path=C:\Program Files\Java\jdk-14\bin, sun.java.command=hibernateHw.Main, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\Irina, user.language=ru, java.specification.vendor=Oracle Corporation, java.version.date=2020-03-17, java.home=C:\Program Files\Java\jdk-14, file.separator=\, java.vm.compressedOopsMode=32-bit, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.hbm2ddl.auto=create-drop, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=14+36-1461, user.name=Irina, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost/car?serverTimezone=UTC, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\Irina\AppData\Local\Temp\, java.version=14, user.dir=C:\Users\Irina\IdeaProjects\monday_22_06_20, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, sun.os.patch.level=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@33d53216, java.library.path=C:\Program Files\Java\jdk-14\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Apache\maven\bin;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk-14\bin;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Ruby26-x64\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Irina\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.2\bin;;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, sharing, java.vm.version=14+36-1461, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, java.class.version=58.0}
+2020-06-25 13:07:13 DEBUG JaccIntegrator:80 - Skipping JACC integration as it was not enabled
+2020-06-25 13:07:13 DEBUG SessionFactoryImpl:296 - Instantiated session factory
+2020-06-25 13:07:13 DEBUG TypeConfiguration$Scope:157 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@189b5fb1] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@4acb2510]
+2020-06-25 13:07:13 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [hibernateHw.models.CarWheel] is safe
+2020-06-25 13:07:13 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : hibernateHw.models.CarWheel
+2020-06-25 13:07:13 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [hibernateHw.models.CarWheel] is safe
+2020-06-25 13:07:13 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : hibernateHw.models.CarWheel
+2020-06-25 13:07:14 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [hibernateHw.models.Car] is safe
+2020-06-25 13:07:14 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : hibernateHw.models.Car
+2020-06-25 13:07:14 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [hibernateHw.models.Car] is safe
+2020-06-25 13:07:14 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : hibernateHw.models.Car
+2020-06-25 13:07:14 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [hibernateHw.models.CarDoor] is safe
+2020-06-25 13:07:14 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : hibernateHw.models.CarDoor
+2020-06-25 13:07:14 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [hibernateHw.models.CarDoor] is safe
+2020-06-25 13:07:14 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : hibernateHw.models.CarDoor
+2020-06-25 13:07:14 DEBUG AbstractCollectionPersister:692 - Static SQL for collection: hibernateHw.models.Car.carWheels
+2020-06-25 13:07:14 DEBUG AbstractCollectionPersister:694 -  Row insert: insert into car_carWheel (Car_id, carWheels_id) values (?, ?)
+2020-06-25 13:07:14 DEBUG AbstractCollectionPersister:697 -  Row update: update car_carWheel set carWheels_id=? where Car_id=? and carWheels_id=?
+2020-06-25 13:07:14 DEBUG AbstractCollectionPersister:700 -  Row delete: delete from car_carWheel where Car_id=? and carWheels_id=?
+2020-06-25 13:07:14 DEBUG AbstractCollectionPersister:703 -  One-shot delete: delete from car_carWheel where Car_id=?
+2020-06-25 13:07:14 DEBUG AbstractCollectionPersister:692 - Static SQL for collection: hibernateHw.models.Car.carDoors
+2020-06-25 13:07:14 DEBUG AbstractCollectionPersister:694 -  Row insert: insert into car_carDoor (Car_id, carDoors_id) values (?, ?)
+2020-06-25 13:07:14 DEBUG AbstractCollectionPersister:697 -  Row update: update car_carDoor set carDoors_id=? where Car_id=? and carDoors_id=?
+2020-06-25 13:07:14 DEBUG AbstractCollectionPersister:700 -  Row delete: delete from car_carDoor where Car_id=? and carDoors_id=?
+2020-06-25 13:07:14 DEBUG AbstractCollectionPersister:703 -  One-shot delete: delete from car_carDoor where Car_id=?
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:3855 - Static SQL for entity: hibernateHw.models.CarWheel
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:3860 -  Version select: select id from carWheel where id =?
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:3863 -  Snapshot select: select carwheel_.id, carwheel_.tireCondition as tirecond2_4_ from carWheel carwheel_ where carwheel_.id=?
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into carWheel (tireCondition, id) values (?, ?)
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:394 -  Update 0: update carWheel set tireCondition=? where id=?
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from carWheel where id=?
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:3871 -  Identity insert: insert into carWheel (tireCondition) values (?)
+2020-06-25 13:07:14 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1b2df3aa]
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : tireCondition
+2020-06-25 13:07:14 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2020-06-25 13:07:14 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2020-06-25 13:07:14 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=hibernateHw.models.CarWheel)
+    - Returns
+       - EntityReturnImpl(entity=hibernateHw.models.CarWheel, querySpaceUid=<gen:0>, path=hibernateHw.models.CarWheel)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=hibernateHw.models.CarWheel)
+          - SQL table alias mapping - carwheel0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+
+2020-06-25 13:07:14 DEBUG EntityLoader:137 - Static select for entity hibernateHw.models.CarWheel [NONE]: select carwheel0_.id as id1_4_0_, carwheel0_.tireCondition as tirecond2_4_0_ from carWheel carwheel0_ where carwheel0_.id=?
+2020-06-25 13:07:14 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1697f2b3]
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : tireCondition
+2020-06-25 13:07:14 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2020-06-25 13:07:14 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2020-06-25 13:07:14 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=hibernateHw.models.CarWheel)
+    - Returns
+       - EntityReturnImpl(entity=hibernateHw.models.CarWheel, querySpaceUid=<gen:0>, path=hibernateHw.models.CarWheel)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=hibernateHw.models.CarWheel)
+          - SQL table alias mapping - carwheel0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+
+2020-06-25 13:07:14 DEBUG EntityLoader:137 - Static select for entity hibernateHw.models.CarWheel [READ]: select carwheel0_.id as id1_4_0_, carwheel0_.tireCondition as tirecond2_4_0_ from carWheel carwheel0_ where carwheel0_.id=?
+2020-06-25 13:07:14 DEBUG Loader:38 - Static select for action ACTION_MERGE on entity hibernateHw.models.CarWheel: select carwheel0_.id as id1_4_0_, carwheel0_.tireCondition as tirecond2_4_0_ from carWheel carwheel0_ where carwheel0_.id=?
+2020-06-25 13:07:14 DEBUG Loader:38 - Static select for action ACTION_REFRESH on entity hibernateHw.models.CarWheel: select carwheel0_.id as id1_4_0_, carwheel0_.tireCondition as tirecond2_4_0_ from carWheel carwheel0_ where carwheel0_.id=?
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:3855 - Static SQL for entity: hibernateHw.models.Car
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:3860 -  Version select: select id from car where id =?
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:3863 -  Snapshot select: select car_.id, car_.accelerationTime as accelera2_0_, car_.dateOfManufacture as dateofma3_0_, car_.engineType as enginety4_0_, car_.maxSpeed as maxspeed5_0_, car_.numberOfPassengersAtTheMoment as numberof6_0_, car_.passengerCapacity as passenge7_0_, car_.speedAtTheMoment as speedatt8_0_ from car car_ where car_.id=?
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into car (accelerationTime, dateOfManufacture, engineType, maxSpeed, numberOfPassengersAtTheMoment, passengerCapacity, speedAtTheMoment, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:394 -  Update 0: update car set accelerationTime=?, dateOfManufacture=?, engineType=?, maxSpeed=?, numberOfPassengersAtTheMoment=?, passengerCapacity=?, speedAtTheMoment=? where id=?
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from car where id=?
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:3871 -  Identity insert: insert into car (accelerationTime, dateOfManufacture, engineType, maxSpeed, numberOfPassengersAtTheMoment, passengerCapacity, speedAtTheMoment) values (?, ?, ?, ?, ?, ?, ?)
+2020-06-25 13:07:14 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3df1a1ac]
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : accelerationTime
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : carDoors
+2020-06-25 13:07:14 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6aa7b67f]
+2020-06-25 13:07:14 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@39c96e48]
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : carWheels
+2020-06-25 13:07:14 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3a4ab7f7]
+2020-06-25 13:07:14 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6badba10]
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : dateOfManufacture
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : engineType
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : maxSpeed
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : numberOfPassengersAtTheMoment
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : passengerCapacity
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : speedAtTheMoment
+2020-06-25 13:07:14 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2020-06-25 13:07:14 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2020-06-25 13:07:14 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=hibernateHw.models.Car)
+    - Returns
+       - EntityReturnImpl(entity=hibernateHw.models.Car, querySpaceUid=<gen:0>, path=hibernateHw.models.Car)
+          - CollectionAttributeFetchImpl(collection=hibernateHw.models.Car.carDoors, querySpaceUid=<gen:1>, path=hibernateHw.models.Car.carDoors)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=hibernateHw.models.CarDoor, querySpaceUid=<gen:2>, path=hibernateHw.models.Car.carDoors.<elements>)
+          - CollectionAttributeFetchImpl(collection=hibernateHw.models.Car.carWheels, querySpaceUid=<gen:3>, path=hibernateHw.models.Car.carWheels)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=hibernateHw.models.CarWheel, querySpaceUid=<gen:4>, path=hibernateHw.models.Car.carWheels.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=hibernateHw.models.Car)
+          - SQL table alias mapping - car0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2020-06-25 13:07:14 DEBUG EntityLoader:137 - Static select for entity hibernateHw.models.Car [NONE]: select car0_.id as id1_0_0_, car0_.accelerationTime as accelera2_0_0_, car0_.dateOfManufacture as dateofma3_0_0_, car0_.engineType as enginety4_0_0_, car0_.maxSpeed as maxspeed5_0_0_, car0_.numberOfPassengersAtTheMoment as numberof6_0_0_, car0_.passengerCapacity as passenge7_0_0_, car0_.speedAtTheMoment as speedatt8_0_0_ from car car0_ where car0_.id=?
+2020-06-25 13:07:14 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2b7e8044]
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : accelerationTime
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : carDoors
+2020-06-25 13:07:14 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3a1706e1]
+2020-06-25 13:07:14 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3c6c4689]
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : carWheels
+2020-06-25 13:07:14 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@63cf9de0]
+2020-06-25 13:07:14 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@594d9f07]
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : dateOfManufacture
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : engineType
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : maxSpeed
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : numberOfPassengersAtTheMoment
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : passengerCapacity
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : speedAtTheMoment
+2020-06-25 13:07:14 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2020-06-25 13:07:14 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2020-06-25 13:07:14 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=hibernateHw.models.Car)
+    - Returns
+       - EntityReturnImpl(entity=hibernateHw.models.Car, querySpaceUid=<gen:0>, path=hibernateHw.models.Car)
+          - CollectionAttributeFetchImpl(collection=hibernateHw.models.Car.carDoors, querySpaceUid=<gen:1>, path=hibernateHw.models.Car.carDoors)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=hibernateHw.models.CarDoor, querySpaceUid=<gen:2>, path=hibernateHw.models.Car.carDoors.<elements>)
+          - CollectionAttributeFetchImpl(collection=hibernateHw.models.Car.carWheels, querySpaceUid=<gen:3>, path=hibernateHw.models.Car.carWheels)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=hibernateHw.models.CarWheel, querySpaceUid=<gen:4>, path=hibernateHw.models.Car.carWheels.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=hibernateHw.models.Car)
+          - SQL table alias mapping - car0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2020-06-25 13:07:14 DEBUG EntityLoader:137 - Static select for entity hibernateHw.models.Car [READ]: select car0_.id as id1_0_0_, car0_.accelerationTime as accelera2_0_0_, car0_.dateOfManufacture as dateofma3_0_0_, car0_.engineType as enginety4_0_0_, car0_.maxSpeed as maxspeed5_0_0_, car0_.numberOfPassengersAtTheMoment as numberof6_0_0_, car0_.passengerCapacity as passenge7_0_0_, car0_.speedAtTheMoment as speedatt8_0_0_ from car car0_ where car0_.id=?
+2020-06-25 13:07:14 DEBUG Loader:38 - Static select for action ACTION_MERGE on entity hibernateHw.models.Car: select car0_.id as id1_0_0_, car0_.accelerationTime as accelera2_0_0_, car0_.dateOfManufacture as dateofma3_0_0_, car0_.engineType as enginety4_0_0_, car0_.maxSpeed as maxspeed5_0_0_, car0_.numberOfPassengersAtTheMoment as numberof6_0_0_, car0_.passengerCapacity as passenge7_0_0_, car0_.speedAtTheMoment as speedatt8_0_0_ from car car0_ where car0_.id=?
+2020-06-25 13:07:14 DEBUG Loader:38 - Static select for action ACTION_REFRESH on entity hibernateHw.models.Car: select car0_.id as id1_0_0_, car0_.accelerationTime as accelera2_0_0_, car0_.dateOfManufacture as dateofma3_0_0_, car0_.engineType as enginety4_0_0_, car0_.maxSpeed as maxspeed5_0_0_, car0_.numberOfPassengersAtTheMoment as numberof6_0_0_, car0_.passengerCapacity as passenge7_0_0_, car0_.speedAtTheMoment as speedatt8_0_0_ from car car0_ where car0_.id=?
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:3855 - Static SQL for entity: hibernateHw.models.CarDoor
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:3860 -  Version select: select id from carDoor where id =?
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:3863 -  Snapshot select: select cardoor_.id, cardoor_.doorCondition as doorcond2_3_, cardoor_.windowCondition as windowco3_3_ from carDoor cardoor_ where cardoor_.id=?
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into carDoor (doorCondition, windowCondition, id) values (?, ?, ?)
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:394 -  Update 0: update carDoor set doorCondition=?, windowCondition=? where id=?
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from carDoor where id=?
+2020-06-25 13:07:14 DEBUG AbstractEntityPersister:3871 -  Identity insert: insert into carDoor (doorCondition, windowCondition) values (?, ?)
+2020-06-25 13:07:14 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5befbac1]
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : doorCondition
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : windowCondition
+2020-06-25 13:07:14 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2020-06-25 13:07:14 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2020-06-25 13:07:14 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=hibernateHw.models.CarDoor)
+    - Returns
+       - EntityReturnImpl(entity=hibernateHw.models.CarDoor, querySpaceUid=<gen:0>, path=hibernateHw.models.CarDoor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=hibernateHw.models.CarDoor)
+          - SQL table alias mapping - cardoor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+
+2020-06-25 13:07:14 DEBUG EntityLoader:137 - Static select for entity hibernateHw.models.CarDoor [NONE]: select cardoor0_.id as id1_3_0_, cardoor0_.doorCondition as doorcond2_3_0_, cardoor0_.windowCondition as windowco3_3_0_ from carDoor cardoor0_ where cardoor0_.id=?
+2020-06-25 13:07:14 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1a565afb]
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : doorCondition
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : windowCondition
+2020-06-25 13:07:14 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2020-06-25 13:07:14 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2020-06-25 13:07:14 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=hibernateHw.models.CarDoor)
+    - Returns
+       - EntityReturnImpl(entity=hibernateHw.models.CarDoor, querySpaceUid=<gen:0>, path=hibernateHw.models.CarDoor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=hibernateHw.models.CarDoor)
+          - SQL table alias mapping - cardoor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+
+2020-06-25 13:07:14 DEBUG EntityLoader:137 - Static select for entity hibernateHw.models.CarDoor [READ]: select cardoor0_.id as id1_3_0_, cardoor0_.doorCondition as doorcond2_3_0_, cardoor0_.windowCondition as windowco3_3_0_ from carDoor cardoor0_ where cardoor0_.id=?
+2020-06-25 13:07:14 DEBUG Loader:38 - Static select for action ACTION_MERGE on entity hibernateHw.models.CarDoor: select cardoor0_.id as id1_3_0_, cardoor0_.doorCondition as doorcond2_3_0_, cardoor0_.windowCondition as windowco3_3_0_ from carDoor cardoor0_ where cardoor0_.id=?
+2020-06-25 13:07:14 DEBUG Loader:38 - Static select for action ACTION_REFRESH on entity hibernateHw.models.CarDoor: select cardoor0_.id as id1_3_0_, cardoor0_.doorCondition as doorcond2_3_0_, cardoor0_.windowCondition as windowco3_3_0_ from carDoor cardoor0_ where cardoor0_.id=?
+2020-06-25 13:07:14 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@14fded9d]
+2020-06-25 13:07:14 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@bc6288b]
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : tireCondition
+2020-06-25 13:07:14 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2020-06-25 13:07:14 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2020-06-25 13:07:14 DEBUG LoadPlanTreePrinter:55 - LoadPlan(collection=hibernateHw.models.Car.carWheels)
+    - Returns
+       - CollectionReturnImpl(collection=hibernateHw.models.Car.carWheels, querySpaceUid=<gen:0>, path=[hibernateHw.models.Car.carWheels])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=hibernateHw.models.CarWheel, querySpaceUid=<gen:1>, path=[hibernateHw.models.Car.carWheels].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=hibernateHw.models.Car.carWheels)
+          - SQL table alias mapping - carwheels0_
+          - alias suffix - 0_
+          - suffixed key columns - {car_id1_2_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_4_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=hibernateHw.models.CarWheel)
+                - SQL table alias mapping - carwheel1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_4_1_}
+
+2020-06-25 13:07:14 DEBUG CollectionLoader:83 - Static select for collection hibernateHw.models.Car.carWheels: select carwheels0_.Car_id as car_id1_2_0_, carwheels0_.carWheels_id as carwheel2_2_0_, carwheel1_.id as id1_4_1_, carwheel1_.tireCondition as tirecond2_4_1_ from car_carWheel carwheels0_ inner join carWheel carwheel1_ on carwheels0_.carWheels_id=carwheel1_.id where carwheels0_.Car_id=?
+2020-06-25 13:07:14 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2d85fb64]
+2020-06-25 13:07:14 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@56476c16]
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : doorCondition
+2020-06-25 13:07:14 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : windowCondition
+2020-06-25 13:07:14 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2020-06-25 13:07:14 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2020-06-25 13:07:14 DEBUG LoadPlanTreePrinter:55 - LoadPlan(collection=hibernateHw.models.Car.carDoors)
+    - Returns
+       - CollectionReturnImpl(collection=hibernateHw.models.Car.carDoors, querySpaceUid=<gen:0>, path=[hibernateHw.models.Car.carDoors])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=hibernateHw.models.CarDoor, querySpaceUid=<gen:1>, path=[hibernateHw.models.Car.carDoors].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=hibernateHw.models.Car.carDoors)
+          - SQL table alias mapping - cardoors0_
+          - alias suffix - 0_
+          - suffixed key columns - {car_id1_1_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_3_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=hibernateHw.models.CarDoor)
+                - SQL table alias mapping - cardoor1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_3_1_}
+
+2020-06-25 13:07:14 DEBUG CollectionLoader:83 - Static select for collection hibernateHw.models.Car.carDoors: select cardoors0_.Car_id as car_id1_1_0_, cardoors0_.carDoors_id as cardoors2_1_0_, cardoor1_.id as id1_3_1_, cardoor1_.doorCondition as doorcond2_3_1_, cardoor1_.windowCondition as windowco3_3_1_ from car_carDoor cardoors0_ inner join carDoor cardoor1_ on cardoors0_.carDoors_id=cardoor1_.id where cardoors0_.Car_id=?
+2020-06-25 13:07:14 DEBUG SQL:128 - alter table car_carDoor drop foreign key FKgr8i8jy61qxswy064fb1prihc
+2020-06-25 13:07:14 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7dcb42a9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-06-25 13:07:16 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Error executing DDL "alter table car_carDoor drop foreign key FKgr8i8jy61qxswy064fb1prihc" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table car_carDoor drop foreign key FKgr8i8jy61qxswy064fb1prihc" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:314)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at hibernateHw.util.HibernateUtil.initSessionFactory(HibernateUtil.java:15)
+	at hibernateHw.util.HibernateUtil.<clinit>(HibernateUtil.java:7)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:340)
+	at hibernateHw.lib.Injector.findClasses(Injector.java:167)
+	at hibernateHw.lib.Injector.findClasses(Injector.java:164)
+	at hibernateHw.lib.Injector.getClasses(Injector.java:138)
+	at hibernateHw.lib.Injector.<init>(Injector.java:21)
+	at hibernateHw.lib.Injector.getInstance(Injector.java:31)
+	at hibernateHw.Main.<clinit>(Main.java:15)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'car.car_cardoor' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:764)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 23 more
+2020-06-25 13:07:16 DEBUG SQL:128 - alter table car_carDoor drop foreign key FKhg44c0plj2mdusiqe1fovo8u4
+2020-06-25 13:07:16 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Error executing DDL "alter table car_carDoor drop foreign key FKhg44c0plj2mdusiqe1fovo8u4" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table car_carDoor drop foreign key FKhg44c0plj2mdusiqe1fovo8u4" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:314)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at hibernateHw.util.HibernateUtil.initSessionFactory(HibernateUtil.java:15)
+	at hibernateHw.util.HibernateUtil.<clinit>(HibernateUtil.java:7)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:340)
+	at hibernateHw.lib.Injector.findClasses(Injector.java:167)
+	at hibernateHw.lib.Injector.findClasses(Injector.java:164)
+	at hibernateHw.lib.Injector.getClasses(Injector.java:138)
+	at hibernateHw.lib.Injector.<init>(Injector.java:21)
+	at hibernateHw.lib.Injector.getInstance(Injector.java:31)
+	at hibernateHw.Main.<clinit>(Main.java:15)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'car.car_cardoor' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:764)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 23 more
+2020-06-25 13:07:16 DEBUG SQL:128 - alter table car_carWheel drop foreign key FKsxn4xo84sl1qwqe0w4mjow9v7
+2020-06-25 13:07:16 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Error executing DDL "alter table car_carWheel drop foreign key FKsxn4xo84sl1qwqe0w4mjow9v7" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table car_carWheel drop foreign key FKsxn4xo84sl1qwqe0w4mjow9v7" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:314)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at hibernateHw.util.HibernateUtil.initSessionFactory(HibernateUtil.java:15)
+	at hibernateHw.util.HibernateUtil.<clinit>(HibernateUtil.java:7)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:340)
+	at hibernateHw.lib.Injector.findClasses(Injector.java:167)
+	at hibernateHw.lib.Injector.findClasses(Injector.java:164)
+	at hibernateHw.lib.Injector.getClasses(Injector.java:138)
+	at hibernateHw.lib.Injector.<init>(Injector.java:21)
+	at hibernateHw.lib.Injector.getInstance(Injector.java:31)
+	at hibernateHw.Main.<clinit>(Main.java:15)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'car.car_carwheel' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:764)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 23 more
+2020-06-25 13:07:16 DEBUG SQL:128 - alter table car_carWheel drop foreign key FKn7xwbu50t546uahlksixsmarx
+2020-06-25 13:07:16 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Error executing DDL "alter table car_carWheel drop foreign key FKn7xwbu50t546uahlksixsmarx" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table car_carWheel drop foreign key FKn7xwbu50t546uahlksixsmarx" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:314)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at hibernateHw.util.HibernateUtil.initSessionFactory(HibernateUtil.java:15)
+	at hibernateHw.util.HibernateUtil.<clinit>(HibernateUtil.java:7)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:340)
+	at hibernateHw.lib.Injector.findClasses(Injector.java:167)
+	at hibernateHw.lib.Injector.findClasses(Injector.java:164)
+	at hibernateHw.lib.Injector.getClasses(Injector.java:138)
+	at hibernateHw.lib.Injector.<init>(Injector.java:21)
+	at hibernateHw.lib.Injector.getInstance(Injector.java:31)
+	at hibernateHw.Main.<clinit>(Main.java:15)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'car.car_carwheel' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:764)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 23 more
+2020-06-25 13:07:16 DEBUG SQL:128 - drop table if exists car
+2020-06-25 13:07:16 DEBUG SQL:128 - drop table if exists car_carDoor
+2020-06-25 13:07:16 DEBUG SQL:128 - drop table if exists car_carWheel
+2020-06-25 13:07:17 DEBUG SQL:128 - drop table if exists carDoor
+2020-06-25 13:07:17 DEBUG SQL:128 - drop table if exists carWheel
+2020-06-25 13:07:17 DEBUG SQL:128 - create table car (id bigint not null auto_increment, accelerationTime double precision not null, dateOfManufacture date, engineType varchar(255), maxSpeed double precision not null, numberOfPassengersAtTheMoment integer not null, passengerCapacity integer not null, speedAtTheMoment double precision not null, primary key (id)) engine=InnoDB
+2020-06-25 13:07:17 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74606204] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-06-25 13:07:23 DEBUG SQL:128 - create table car_carDoor (Car_id bigint not null, carDoors_id bigint not null) engine=InnoDB
+2020-06-25 13:07:24 DEBUG SQL:128 - create table car_carWheel (Car_id bigint not null, carWheels_id bigint not null) engine=InnoDB
+2020-06-25 13:07:25 DEBUG SQL:128 - create table carDoor (id bigint not null auto_increment, doorCondition bit not null, windowCondition bit not null, primary key (id)) engine=InnoDB
+2020-06-25 13:07:26 DEBUG SQL:128 - create table carWheel (id bigint not null auto_increment, tireCondition double precision not null, primary key (id)) engine=InnoDB
+2020-06-25 13:07:26 DEBUG SQL:128 - alter table car_carDoor add constraint UK_epiom7ywliyjxr2cwbaacjh67 unique (carDoors_id)
+2020-06-25 13:07:28 DEBUG SQL:128 - alter table car_carWheel add constraint UK_eg5tg750uxpb6fgr5nqjpb40d unique (carWheels_id)
+2020-06-25 13:07:29 DEBUG SQL:128 - alter table car_carDoor add constraint FKgr8i8jy61qxswy064fb1prihc foreign key (carDoors_id) references carDoor (id)
+2020-06-25 13:07:31 DEBUG SQL:128 - alter table car_carDoor add constraint FKhg44c0plj2mdusiqe1fovo8u4 foreign key (Car_id) references car (id)
+2020-06-25 13:07:34 DEBUG SQL:128 - alter table car_carWheel add constraint FKsxn4xo84sl1qwqe0w4mjow9v7 foreign key (carWheels_id) references carWheel (id)
+2020-06-25 13:07:36 DEBUG SQL:128 - alter table car_carWheel add constraint FKn7xwbu50t546uahlksixsmarx foreign key (Car_id) references car (id)
+2020-06-25 13:07:37 DEBUG JtaPlatformInitiator:43 - No JtaPlatform was specified, checking resolver
+2020-06-25 13:07:37 DEBUG JtaPlatformResolverInitiator:33 - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+2020-06-25 13:07:37 DEBUG StandardJtaPlatformResolver:137 - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-25 13:07:37 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-25 13:07:38 DEBUG NamedQueryRepository:151 - Checking 0 named HQL queries
+2020-06-25 13:07:38 DEBUG NamedQueryRepository:167 - Checking 0 named SQL queries
+2020-06-25 13:07:38 DEBUG SessionFactoryRegistry:52 - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@2d74c81b
+2020-06-25 13:07:38 DEBUG SessionFactoryRegistry:74 - Registering SessionFactory: 693a3b37-af0c-4cdd-9c99-715c502c9347 (<unnamed>)
+2020-06-25 13:07:38 DEBUG SessionFactoryRegistry:81 - Not binding SessionFactory to JNDI, no JNDI name configured
+2020-06-25 13:07:38 DEBUG StatisticsInitiator:101 - Statistics initialized [enabled=false]
+2020-06-25 13:07:38 DEBUG TransactionImpl:53 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2020-06-25 13:07:38 DEBUG TransactionImpl:81 - begin
+2020-06-25 13:07:38 DEBUG ActionQueue:281 - Executing identity-insert immediately
+2020-06-25 13:07:38 DEBUG SQL:128 - insert into carDoor (doorCondition, windowCondition) values (?, ?)
+2020-06-25 13:07:38 DEBUG IdentifierGeneratorHelper:78 - Natively generated identity: 1
+2020-06-25 13:07:38 DEBUG ResourceRegistryStandardImpl:106 - HHH000387: ResultSet's statement was not registered
+2020-06-25 13:07:38 DEBUG TransactionImpl:98 - committing
+2020-06-25 13:07:38 DEBUG AbstractFlushingEventListener:139 - Processing flush-time cascades
+2020-06-25 13:07:38 DEBUG AbstractFlushingEventListener:192 - Dirty checking collections
+2020-06-25 13:07:38 DEBUG AbstractFlushingEventListener:113 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2020-06-25 13:07:38 DEBUG AbstractFlushingEventListener:120 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2020-06-25 13:07:38 DEBUG EntityPrinter:110 - Listing entities:
+2020-06-25 13:07:38 DEBUG EntityPrinter:117 - hibernateHw.models.CarDoor{doorCondition=true, id=1, windowCondition=false}
+2020-06-25 13:07:38 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:38 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:38 INFO  CarDoorDaoImpl:26 - carDoor insert
+2020-06-25 13:07:38 DEBUG TransactionImpl:53 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2020-06-25 13:07:38 DEBUG TransactionImpl:81 - begin
+2020-06-25 13:07:38 DEBUG ActionQueue:281 - Executing identity-insert immediately
+2020-06-25 13:07:38 DEBUG SQL:128 - insert into carDoor (doorCondition, windowCondition) values (?, ?)
+2020-06-25 13:07:38 DEBUG IdentifierGeneratorHelper:78 - Natively generated identity: 2
+2020-06-25 13:07:38 DEBUG ResourceRegistryStandardImpl:106 - HHH000387: ResultSet's statement was not registered
+2020-06-25 13:07:38 DEBUG TransactionImpl:98 - committing
+2020-06-25 13:07:38 DEBUG AbstractFlushingEventListener:139 - Processing flush-time cascades
+2020-06-25 13:07:38 DEBUG AbstractFlushingEventListener:192 - Dirty checking collections
+2020-06-25 13:07:38 DEBUG AbstractFlushingEventListener:113 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2020-06-25 13:07:38 DEBUG AbstractFlushingEventListener:120 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2020-06-25 13:07:38 DEBUG EntityPrinter:110 - Listing entities:
+2020-06-25 13:07:38 DEBUG EntityPrinter:117 - hibernateHw.models.CarDoor{doorCondition=false, id=2, windowCondition=false}
+2020-06-25 13:07:38 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:38 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:38 INFO  CarDoorDaoImpl:26 - carDoor insert
+2020-06-25 13:07:38 DEBUG TransactionImpl:53 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2020-06-25 13:07:38 DEBUG TransactionImpl:81 - begin
+2020-06-25 13:07:38 DEBUG ActionQueue:281 - Executing identity-insert immediately
+2020-06-25 13:07:38 DEBUG SQL:128 - insert into carDoor (doorCondition, windowCondition) values (?, ?)
+2020-06-25 13:07:38 DEBUG IdentifierGeneratorHelper:78 - Natively generated identity: 3
+2020-06-25 13:07:38 DEBUG ResourceRegistryStandardImpl:106 - HHH000387: ResultSet's statement was not registered
+2020-06-25 13:07:38 DEBUG TransactionImpl:98 - committing
+2020-06-25 13:07:38 DEBUG AbstractFlushingEventListener:139 - Processing flush-time cascades
+2020-06-25 13:07:38 DEBUG AbstractFlushingEventListener:192 - Dirty checking collections
+2020-06-25 13:07:38 DEBUG AbstractFlushingEventListener:113 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2020-06-25 13:07:38 DEBUG AbstractFlushingEventListener:120 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2020-06-25 13:07:38 DEBUG EntityPrinter:110 - Listing entities:
+2020-06-25 13:07:38 DEBUG EntityPrinter:117 - hibernateHw.models.CarDoor{doorCondition=true, id=3, windowCondition=false}
+2020-06-25 13:07:38 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:38 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:38 INFO  CarDoorDaoImpl:26 - carDoor insert
+2020-06-25 13:07:38 DEBUG TransactionImpl:53 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2020-06-25 13:07:38 DEBUG TransactionImpl:81 - begin
+2020-06-25 13:07:38 DEBUG ActionQueue:281 - Executing identity-insert immediately
+2020-06-25 13:07:38 DEBUG SQL:128 - insert into carDoor (doorCondition, windowCondition) values (?, ?)
+2020-06-25 13:07:38 DEBUG IdentifierGeneratorHelper:78 - Natively generated identity: 4
+2020-06-25 13:07:38 DEBUG ResourceRegistryStandardImpl:106 - HHH000387: ResultSet's statement was not registered
+2020-06-25 13:07:38 DEBUG TransactionImpl:98 - committing
+2020-06-25 13:07:38 DEBUG AbstractFlushingEventListener:139 - Processing flush-time cascades
+2020-06-25 13:07:38 DEBUG AbstractFlushingEventListener:192 - Dirty checking collections
+2020-06-25 13:07:38 DEBUG AbstractFlushingEventListener:113 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2020-06-25 13:07:38 DEBUG AbstractFlushingEventListener:120 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2020-06-25 13:07:38 DEBUG EntityPrinter:110 - Listing entities:
+2020-06-25 13:07:38 DEBUG EntityPrinter:117 - hibernateHw.models.CarDoor{doorCondition=false, id=4, windowCondition=false}
+2020-06-25 13:07:38 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:38 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:38 INFO  CarDoorDaoImpl:26 - carDoor insert
+2020-06-25 13:07:39 DEBUG CriteriaQueryImpl:299 - Rendered criteria query -> select generatedAlias0 from CarDoor as generatedAlias0
+2020-06-25 13:07:39 DEBUG QueryTranslatorFactoryInitiator:45 - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@4c6a4ffd
+2020-06-25 13:07:39 DEBUG QueryTranslatorImpl:288 - parse() - HQL: select generatedAlias0 from hibernateHw.models.CarDoor as generatedAlias0
+2020-06-25 13:07:39 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2020-06-25 13:07:39 DEBUG QueryTranslatorImpl:309 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[IDENT] Node: 'hibernateHw'
+       |     |  |  \-[IDENT] Node: 'models'
+       |     |  \-[IDENT] Node: 'CarDoor'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+2020-06-25 13:07:39 DEBUG HqlSqlBaseWalker:124 - select << begin [level=1, statement=select]
+2020-06-25 13:07:39 DEBUG FromElement:153 - FromClause{level=1} : hibernateHw.models.CarDoor (generatedAlias0) -> cardoor0_
+2020-06-25 13:07:39 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> cardoor0_.id
+2020-06-25 13:07:39 DEBUG HqlSqlBaseWalker:128 - select : finishing up [level=1, statement=select]
+2020-06-25 13:07:39 DEBUG HqlSqlWalker:760 - processQuery() :  ( SELECT ( {select clause} cardoor0_.id ) ( FromClause{level=1} carDoor cardoor0_ ) )
+2020-06-25 13:07:39 DEBUG JoinProcessor:129 - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity CarDoor): [carDoor]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(hibernateHw.models.CarDoor)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+2020-06-25 13:07:39 DEBUG JoinProcessor:296 - Using FROM fragment [carDoor cardoor0_]
+2020-06-25 13:07:39 DEBUG HqlSqlBaseWalker:132 - select >> end [level=1, statement=select]
+2020-06-25 13:07:39 DEBUG QueryTranslatorImpl:275 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (carDoor)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'cardoor0_.id as id1_3_' {alias=generatedAlias0, className=hibernateHw.models.CarDoor, tableAlias=cardoor0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'cardoor0_.doorCondition as doorcond2_3_, cardoor0_.windowCondition as windowco3_3_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[cardoor0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'carDoor cardoor0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=carDoor,tableAlias=cardoor0_,origin=null,columns={,className=hibernateHw.models.CarDoor}}
+
+2020-06-25 13:07:39 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2020-06-25 13:07:39 DEBUG QueryTranslatorImpl:254 - HQL: select generatedAlias0 from hibernateHw.models.CarDoor as generatedAlias0
+2020-06-25 13:07:39 DEBUG QueryTranslatorImpl:255 - SQL: select cardoor0_.id as id1_3_, cardoor0_.doorCondition as doorcond2_3_, cardoor0_.windowCondition as windowco3_3_ from carDoor cardoor0_
+2020-06-25 13:07:39 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2020-06-25 13:07:39 DEBUG SQL:128 - select cardoor0_.id as id1_3_, cardoor0_.doorCondition as doorcond2_3_, cardoor0_.windowCondition as windowco3_3_ from carDoor cardoor0_
+2020-06-25 13:07:39 DEBUG Loader:384 - Result set row: 0
+2020-06-25 13:07:39 DEBUG Loader:1586 - Result row: EntityKey[hibernateHw.models.CarDoor#1]
+2020-06-25 13:07:39 DEBUG Loader:384 - Result set row: 1
+2020-06-25 13:07:39 DEBUG Loader:1586 - Result row: EntityKey[hibernateHw.models.CarDoor#2]
+2020-06-25 13:07:39 DEBUG Loader:384 - Result set row: 2
+2020-06-25 13:07:39 DEBUG Loader:1586 - Result row: EntityKey[hibernateHw.models.CarDoor#3]
+2020-06-25 13:07:39 DEBUG Loader:384 - Result set row: 3
+2020-06-25 13:07:39 DEBUG Loader:1586 - Result row: EntityKey[hibernateHw.models.CarDoor#4]
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:180 - Resolving attributes for [hibernateHw.models.CarDoor#1]
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:195 - Processing attribute `doorCondition` : value = true
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:226 - Attribute (`doorCondition`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:195 - Processing attribute `windowCondition` : value = false
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:226 - Attribute (`windowCondition`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:351 - Done materializing entity [hibernateHw.models.CarDoor#1]
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:180 - Resolving attributes for [hibernateHw.models.CarDoor#2]
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:195 - Processing attribute `doorCondition` : value = false
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:226 - Attribute (`doorCondition`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:195 - Processing attribute `windowCondition` : value = false
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:226 - Attribute (`windowCondition`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:351 - Done materializing entity [hibernateHw.models.CarDoor#2]
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:180 - Resolving attributes for [hibernateHw.models.CarDoor#3]
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:195 - Processing attribute `doorCondition` : value = true
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:226 - Attribute (`doorCondition`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:195 - Processing attribute `windowCondition` : value = false
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:226 - Attribute (`windowCondition`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:351 - Done materializing entity [hibernateHw.models.CarDoor#3]
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:180 - Resolving attributes for [hibernateHw.models.CarDoor#4]
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:195 - Processing attribute `doorCondition` : value = false
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:226 - Attribute (`doorCondition`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:195 - Processing attribute `windowCondition` : value = false
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:226 - Attribute (`windowCondition`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:39 DEBUG TwoPhaseLoad:351 - Done materializing entity [hibernateHw.models.CarDoor#4]
+2020-06-25 13:07:39 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:39 DEBUG TransactionImpl:53 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2020-06-25 13:07:39 DEBUG TransactionImpl:81 - begin
+2020-06-25 13:07:39 DEBUG ActionQueue:281 - Executing identity-insert immediately
+2020-06-25 13:07:39 DEBUG SQL:128 - insert into carWheel (tireCondition) values (?)
+2020-06-25 13:07:39 DEBUG IdentifierGeneratorHelper:78 - Natively generated identity: 1
+2020-06-25 13:07:39 DEBUG ResourceRegistryStandardImpl:106 - HHH000387: ResultSet's statement was not registered
+2020-06-25 13:07:39 DEBUG TransactionImpl:98 - committing
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:139 - Processing flush-time cascades
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:192 - Dirty checking collections
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:113 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:120 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2020-06-25 13:07:39 DEBUG EntityPrinter:110 - Listing entities:
+2020-06-25 13:07:39 DEBUG EntityPrinter:117 - hibernateHw.models.CarWheel{id=1, tireCondition=1.0}
+2020-06-25 13:07:39 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:39 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:39 INFO  CarWheelDaoImpl:26 - carWheel insert
+2020-06-25 13:07:39 DEBUG TransactionImpl:53 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2020-06-25 13:07:39 DEBUG TransactionImpl:81 - begin
+2020-06-25 13:07:39 DEBUG ActionQueue:281 - Executing identity-insert immediately
+2020-06-25 13:07:39 DEBUG SQL:128 - insert into carWheel (tireCondition) values (?)
+2020-06-25 13:07:39 DEBUG IdentifierGeneratorHelper:78 - Natively generated identity: 2
+2020-06-25 13:07:39 DEBUG ResourceRegistryStandardImpl:106 - HHH000387: ResultSet's statement was not registered
+2020-06-25 13:07:39 DEBUG TransactionImpl:98 - committing
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:139 - Processing flush-time cascades
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:192 - Dirty checking collections
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:113 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:120 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2020-06-25 13:07:39 DEBUG EntityPrinter:110 - Listing entities:
+2020-06-25 13:07:39 DEBUG EntityPrinter:117 - hibernateHw.models.CarWheel{id=2, tireCondition=1.0}
+2020-06-25 13:07:39 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:39 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:39 INFO  CarWheelDaoImpl:26 - carWheel insert
+2020-06-25 13:07:39 DEBUG TransactionImpl:53 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2020-06-25 13:07:39 DEBUG TransactionImpl:81 - begin
+2020-06-25 13:07:39 DEBUG ActionQueue:281 - Executing identity-insert immediately
+2020-06-25 13:07:39 DEBUG SQL:128 - insert into carWheel (tireCondition) values (?)
+2020-06-25 13:07:39 DEBUG IdentifierGeneratorHelper:78 - Natively generated identity: 3
+2020-06-25 13:07:39 DEBUG ResourceRegistryStandardImpl:106 - HHH000387: ResultSet's statement was not registered
+2020-06-25 13:07:39 DEBUG TransactionImpl:98 - committing
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:139 - Processing flush-time cascades
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:192 - Dirty checking collections
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:113 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:120 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2020-06-25 13:07:39 DEBUG EntityPrinter:110 - Listing entities:
+2020-06-25 13:07:39 DEBUG EntityPrinter:117 - hibernateHw.models.CarWheel{id=3, tireCondition=1.0}
+2020-06-25 13:07:39 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:39 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:39 INFO  CarWheelDaoImpl:26 - carWheel insert
+2020-06-25 13:07:39 DEBUG TransactionImpl:53 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2020-06-25 13:07:39 DEBUG TransactionImpl:81 - begin
+2020-06-25 13:07:39 DEBUG ActionQueue:281 - Executing identity-insert immediately
+2020-06-25 13:07:39 DEBUG SQL:128 - insert into carWheel (tireCondition) values (?)
+2020-06-25 13:07:39 DEBUG IdentifierGeneratorHelper:78 - Natively generated identity: 4
+2020-06-25 13:07:39 DEBUG ResourceRegistryStandardImpl:106 - HHH000387: ResultSet's statement was not registered
+2020-06-25 13:07:39 DEBUG TransactionImpl:98 - committing
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:139 - Processing flush-time cascades
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:192 - Dirty checking collections
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:113 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:120 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2020-06-25 13:07:39 DEBUG EntityPrinter:110 - Listing entities:
+2020-06-25 13:07:39 DEBUG EntityPrinter:117 - hibernateHw.models.CarWheel{id=4, tireCondition=1.0}
+2020-06-25 13:07:39 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:39 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:39 INFO  CarWheelDaoImpl:26 - carWheel insert
+2020-06-25 13:07:39 DEBUG TransactionImpl:53 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2020-06-25 13:07:39 DEBUG TransactionImpl:81 - begin
+2020-06-25 13:07:39 DEBUG ActionQueue:281 - Executing identity-insert immediately
+2020-06-25 13:07:39 DEBUG SQL:128 - insert into carWheel (tireCondition) values (?)
+2020-06-25 13:07:39 DEBUG IdentifierGeneratorHelper:78 - Natively generated identity: 5
+2020-06-25 13:07:39 DEBUG ResourceRegistryStandardImpl:106 - HHH000387: ResultSet's statement was not registered
+2020-06-25 13:07:39 DEBUG TransactionImpl:98 - committing
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:139 - Processing flush-time cascades
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:192 - Dirty checking collections
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:113 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2020-06-25 13:07:39 DEBUG AbstractFlushingEventListener:120 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2020-06-25 13:07:39 DEBUG EntityPrinter:110 - Listing entities:
+2020-06-25 13:07:39 DEBUG EntityPrinter:117 - hibernateHw.models.CarWheel{id=5, tireCondition=1.0}
+2020-06-25 13:07:40 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:40 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:40 INFO  CarWheelDaoImpl:26 - carWheel insert
+2020-06-25 13:07:40 DEBUG CriteriaQueryImpl:299 - Rendered criteria query -> select generatedAlias0 from CarWheel as generatedAlias0
+2020-06-25 13:07:40 DEBUG QueryTranslatorImpl:288 - parse() - HQL: select generatedAlias0 from hibernateHw.models.CarWheel as generatedAlias0
+2020-06-25 13:07:40 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2020-06-25 13:07:40 DEBUG QueryTranslatorImpl:309 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[IDENT] Node: 'hibernateHw'
+       |     |  |  \-[IDENT] Node: 'models'
+       |     |  \-[IDENT] Node: 'CarWheel'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+2020-06-25 13:07:40 DEBUG HqlSqlBaseWalker:124 - select << begin [level=1, statement=select]
+2020-06-25 13:07:40 DEBUG FromElement:153 - FromClause{level=1} : hibernateHw.models.CarWheel (generatedAlias0) -> carwheel0_
+2020-06-25 13:07:40 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> carwheel0_.id
+2020-06-25 13:07:40 DEBUG HqlSqlBaseWalker:128 - select : finishing up [level=1, statement=select]
+2020-06-25 13:07:40 DEBUG HqlSqlWalker:760 - processQuery() :  ( SELECT ( {select clause} carwheel0_.id ) ( FromClause{level=1} carWheel carwheel0_ ) )
+2020-06-25 13:07:40 DEBUG JoinProcessor:129 - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity CarWheel): [carWheel]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(hibernateHw.models.CarWheel)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+2020-06-25 13:07:40 DEBUG JoinProcessor:296 - Using FROM fragment [carWheel carwheel0_]
+2020-06-25 13:07:40 DEBUG HqlSqlBaseWalker:132 - select >> end [level=1, statement=select]
+2020-06-25 13:07:40 DEBUG QueryTranslatorImpl:275 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (carWheel)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'carwheel0_.id as id1_4_' {alias=generatedAlias0, className=hibernateHw.models.CarWheel, tableAlias=carwheel0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'carwheel0_.tireCondition as tirecond2_4_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[carwheel0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'carWheel carwheel0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=carWheel,tableAlias=carwheel0_,origin=null,columns={,className=hibernateHw.models.CarWheel}}
+
+2020-06-25 13:07:40 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2020-06-25 13:07:40 DEBUG QueryTranslatorImpl:254 - HQL: select generatedAlias0 from hibernateHw.models.CarWheel as generatedAlias0
+2020-06-25 13:07:40 DEBUG QueryTranslatorImpl:255 - SQL: select carwheel0_.id as id1_4_, carwheel0_.tireCondition as tirecond2_4_ from carWheel carwheel0_
+2020-06-25 13:07:40 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2020-06-25 13:07:40 DEBUG SQL:128 - select carwheel0_.id as id1_4_, carwheel0_.tireCondition as tirecond2_4_ from carWheel carwheel0_
+2020-06-25 13:07:40 DEBUG Loader:384 - Result set row: 0
+2020-06-25 13:07:40 DEBUG Loader:1586 - Result row: EntityKey[hibernateHw.models.CarWheel#1]
+2020-06-25 13:07:40 DEBUG Loader:384 - Result set row: 1
+2020-06-25 13:07:40 DEBUG Loader:1586 - Result row: EntityKey[hibernateHw.models.CarWheel#2]
+2020-06-25 13:07:40 DEBUG Loader:384 - Result set row: 2
+2020-06-25 13:07:40 DEBUG Loader:1586 - Result row: EntityKey[hibernateHw.models.CarWheel#3]
+2020-06-25 13:07:40 DEBUG Loader:384 - Result set row: 3
+2020-06-25 13:07:40 DEBUG Loader:1586 - Result row: EntityKey[hibernateHw.models.CarWheel#4]
+2020-06-25 13:07:40 DEBUG Loader:384 - Result set row: 4
+2020-06-25 13:07:40 DEBUG Loader:1586 - Result row: EntityKey[hibernateHw.models.CarWheel#5]
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:180 - Resolving attributes for [hibernateHw.models.CarWheel#1]
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:195 - Processing attribute `tireCondition` : value = 1.0
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:226 - Attribute (`tireCondition`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:351 - Done materializing entity [hibernateHw.models.CarWheel#1]
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:180 - Resolving attributes for [hibernateHw.models.CarWheel#2]
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:195 - Processing attribute `tireCondition` : value = 1.0
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:226 - Attribute (`tireCondition`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:351 - Done materializing entity [hibernateHw.models.CarWheel#2]
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:180 - Resolving attributes for [hibernateHw.models.CarWheel#3]
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:195 - Processing attribute `tireCondition` : value = 1.0
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:226 - Attribute (`tireCondition`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:351 - Done materializing entity [hibernateHw.models.CarWheel#3]
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:180 - Resolving attributes for [hibernateHw.models.CarWheel#4]
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:195 - Processing attribute `tireCondition` : value = 1.0
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:226 - Attribute (`tireCondition`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:351 - Done materializing entity [hibernateHw.models.CarWheel#4]
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:180 - Resolving attributes for [hibernateHw.models.CarWheel#5]
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:195 - Processing attribute `tireCondition` : value = 1.0
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:226 - Attribute (`tireCondition`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:351 - Done materializing entity [hibernateHw.models.CarWheel#5]
+2020-06-25 13:07:40 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:40 DEBUG TransactionImpl:53 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2020-06-25 13:07:40 DEBUG TransactionImpl:81 - begin
+2020-06-25 13:07:40 DEBUG ActionQueue:281 - Executing identity-insert immediately
+2020-06-25 13:07:40 DEBUG SQL:128 - insert into car (accelerationTime, dateOfManufacture, engineType, maxSpeed, numberOfPassengersAtTheMoment, passengerCapacity, speedAtTheMoment) values (?, ?, ?, ?, ?, ?, ?)
+2020-06-25 13:07:40 DEBUG IdentifierGeneratorHelper:78 - Natively generated identity: 1
+2020-06-25 13:07:40 DEBUG ResourceRegistryStandardImpl:106 - HHH000387: ResultSet's statement was not registered
+2020-06-25 13:07:40 DEBUG TransactionImpl:98 - committing
+2020-06-25 13:07:40 DEBUG AbstractFlushingEventListener:139 - Processing flush-time cascades
+2020-06-25 13:07:40 DEBUG AbstractFlushingEventListener:192 - Dirty checking collections
+2020-06-25 13:07:40 DEBUG Collections:196 - Collection found: [hibernateHw.models.Car.carDoors#1], was: [<unreferenced>] (initialized)
+2020-06-25 13:07:40 DEBUG Collections:196 - Collection found: [hibernateHw.models.Car.carWheels#1], was: [<unreferenced>] (initialized)
+2020-06-25 13:07:40 DEBUG AbstractFlushingEventListener:113 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2020-06-25 13:07:40 DEBUG AbstractFlushingEventListener:120 - Flushed: 2 (re)creations, 0 updates, 0 removals to 2 collections
+2020-06-25 13:07:40 DEBUG EntityPrinter:110 - Listing entities:
+2020-06-25 13:07:40 DEBUG EntityPrinter:117 - hibernateHw.models.Car{carWheels=[hibernateHw.models.CarWheel#1, hibernateHw.models.CarWheel#2, hibernateHw.models.CarWheel#3, hibernateHw.models.CarWheel#4, hibernateHw.models.CarWheel#5], dateOfManufacture=2020-06-25, passengerCapacity=8, accelerationTime=10.0, engineType=null, numberOfPassengersAtTheMoment=0, carDoors=[hibernateHw.models.CarDoor#1, hibernateHw.models.CarDoor#2, hibernateHw.models.CarDoor#3, hibernateHw.models.CarDoor#4], id=1, maxSpeed=250.0, speedAtTheMoment=0.0}
+2020-06-25 13:07:40 DEBUG AbstractCollectionPersister:1299 - Inserting collection: [hibernateHw.models.Car.carDoors#1]
+2020-06-25 13:07:40 DEBUG SQL:128 - insert into car_carDoor (Car_id, carDoors_id) values (?, ?)
+2020-06-25 13:07:40 DEBUG SQL:128 - insert into car_carDoor (Car_id, carDoors_id) values (?, ?)
+2020-06-25 13:07:40 DEBUG SQL:128 - insert into car_carDoor (Car_id, carDoors_id) values (?, ?)
+2020-06-25 13:07:40 DEBUG SQL:128 - insert into car_carDoor (Car_id, carDoors_id) values (?, ?)
+2020-06-25 13:07:40 DEBUG AbstractCollectionPersister:384 - Done inserting collection: 4 rows inserted
+2020-06-25 13:07:40 DEBUG AbstractCollectionPersister:1299 - Inserting collection: [hibernateHw.models.Car.carWheels#1]
+2020-06-25 13:07:40 DEBUG SQL:128 - insert into car_carWheel (Car_id, carWheels_id) values (?, ?)
+2020-06-25 13:07:40 DEBUG SQL:128 - insert into car_carWheel (Car_id, carWheels_id) values (?, ?)
+2020-06-25 13:07:40 DEBUG SQL:128 - insert into car_carWheel (Car_id, carWheels_id) values (?, ?)
+2020-06-25 13:07:40 DEBUG SQL:128 - insert into car_carWheel (Car_id, carWheels_id) values (?, ?)
+2020-06-25 13:07:40 DEBUG SQL:128 - insert into car_carWheel (Car_id, carWheels_id) values (?, ?)
+2020-06-25 13:07:40 DEBUG AbstractCollectionPersister:384 - Done inserting collection: 5 rows inserted
+2020-06-25 13:07:40 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:40 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
+2020-06-25 13:07:40 INFO  CarDaoImpl:26 - Car insert
+2020-06-25 13:07:40 DEBUG JdbcCoordinatorImpl:170 - HHH000420: Closing un-released batch
+2020-06-25 13:07:40 DEBUG CriteriaQueryImpl:299 - Rendered criteria query -> select generatedAlias0 from Car as generatedAlias0
+2020-06-25 13:07:40 DEBUG QueryTranslatorImpl:288 - parse() - HQL: select generatedAlias0 from hibernateHw.models.Car as generatedAlias0
+2020-06-25 13:07:40 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2020-06-25 13:07:40 DEBUG QueryTranslatorImpl:309 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[IDENT] Node: 'hibernateHw'
+       |     |  |  \-[IDENT] Node: 'models'
+       |     |  \-[IDENT] Node: 'Car'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+2020-06-25 13:07:40 DEBUG HqlSqlBaseWalker:124 - select << begin [level=1, statement=select]
+2020-06-25 13:07:40 DEBUG FromElement:153 - FromClause{level=1} : hibernateHw.models.Car (generatedAlias0) -> car0_
+2020-06-25 13:07:40 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> car0_.id
+2020-06-25 13:07:40 DEBUG HqlSqlBaseWalker:128 - select : finishing up [level=1, statement=select]
+2020-06-25 13:07:40 DEBUG HqlSqlWalker:760 - processQuery() :  ( SELECT ( {select clause} car0_.id ) ( FromClause{level=1} car car0_ ) )
+2020-06-25 13:07:40 DEBUG JoinProcessor:129 - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Car): [car]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(hibernateHw.models.Car)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+2020-06-25 13:07:40 DEBUG JoinProcessor:296 - Using FROM fragment [car car0_]
+2020-06-25 13:07:40 DEBUG HqlSqlBaseWalker:132 - select >> end [level=1, statement=select]
+2020-06-25 13:07:40 DEBUG QueryTranslatorImpl:275 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (car)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'car0_.id as id1_0_' {alias=generatedAlias0, className=hibernateHw.models.Car, tableAlias=car0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'car0_.accelerationTime as accelera2_0_, car0_.dateOfManufacture as dateofma3_0_, car0_.engineType as enginety4_0_, car0_.maxSpeed as maxspeed5_0_, car0_.numberOfPassengersAtTheMoment as numberof6_0_, car0_.passengerCapacity as passenge7_0_, car0_.speedAtTheMoment as speedatt8_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[car0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'car car0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=car,tableAlias=car0_,origin=null,columns={,className=hibernateHw.models.Car}}
+
+2020-06-25 13:07:40 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2020-06-25 13:07:40 DEBUG QueryTranslatorImpl:254 - HQL: select generatedAlias0 from hibernateHw.models.Car as generatedAlias0
+2020-06-25 13:07:40 DEBUG QueryTranslatorImpl:255 - SQL: select car0_.id as id1_0_, car0_.accelerationTime as accelera2_0_, car0_.dateOfManufacture as dateofma3_0_, car0_.engineType as enginety4_0_, car0_.maxSpeed as maxspeed5_0_, car0_.numberOfPassengersAtTheMoment as numberof6_0_, car0_.passengerCapacity as passenge7_0_, car0_.speedAtTheMoment as speedatt8_0_ from car car0_
+2020-06-25 13:07:40 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2020-06-25 13:07:40 DEBUG SQL:128 - select car0_.id as id1_0_, car0_.accelerationTime as accelera2_0_, car0_.dateOfManufacture as dateofma3_0_, car0_.engineType as enginety4_0_, car0_.maxSpeed as maxspeed5_0_, car0_.numberOfPassengersAtTheMoment as numberof6_0_, car0_.passengerCapacity as passenge7_0_, car0_.speedAtTheMoment as speedatt8_0_ from car car0_
+2020-06-25 13:07:40 DEBUG Loader:384 - Result set row: 0
+2020-06-25 13:07:40 DEBUG Loader:1586 - Result row: EntityKey[hibernateHw.models.Car#1]
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:180 - Resolving attributes for [hibernateHw.models.Car#1]
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:195 - Processing attribute `accelerationTime` : value = 10.0
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:226 - Attribute (`accelerationTime`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:195 - Processing attribute `carDoors` : value = NOT NULL COLLECTION
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:226 - Attribute (`carDoors`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:195 - Processing attribute `carWheels` : value = NOT NULL COLLECTION
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:226 - Attribute (`carWheels`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:195 - Processing attribute `dateOfManufacture` : value = 2020-06-25
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:226 - Attribute (`dateOfManufacture`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:195 - Processing attribute `engineType` : value = null
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:226 - Attribute (`engineType`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:195 - Processing attribute `maxSpeed` : value = 250.0
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:226 - Attribute (`maxSpeed`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:195 - Processing attribute `numberOfPassengersAtTheMoment` : value = 0
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:226 - Attribute (`numberOfPassengersAtTheMoment`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:195 - Processing attribute `passengerCapacity` : value = 8
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:226 - Attribute (`passengerCapacity`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:195 - Processing attribute `speedAtTheMoment` : value = 0.0
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:226 - Attribute (`speedAtTheMoment`)  - enhanced for lazy-loading? - false
+2020-06-25 13:07:40 DEBUG TwoPhaseLoad:351 - Done materializing entity [hibernateHw.models.Car#1]
+2020-06-25 13:07:40 DEBUG LogicalConnectionManagedImpl:168 - Initiating JDBC connection release from afterTransaction
