@@ -47,6 +47,8 @@ public class Main {
         carWheelService.add(carWheel4);
         CarWheel carWheel5 = new CarWheel();
         carWheelService.add(carWheel5);
+        CarWheel carWheel6 = new CarWheel();
+        carWheelService.add(carWheel6);
 
         List<CarWheel> carWheels;
         carWheels = carWheelService.getAll();
