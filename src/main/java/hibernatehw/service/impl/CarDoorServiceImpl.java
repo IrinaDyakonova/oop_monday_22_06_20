@@ -1,16 +1,18 @@
 package hibernatehw.service.impl;
 
 import hibernatehw.dao.CarDoorDao;
-import hibernatehw.lib.Inject;
-import hibernatehw.lib.Service;
 import hibernatehw.models.CarDoor;
 import hibernatehw.service.CarDoorService;
 import java.util.List;
+import org.springframework.stereotype.Service;
 
 @Service
 public class CarDoorServiceImpl implements CarDoorService {
-    @Inject
     private CarDoorDao carDoorDao;
+
+    public CarDoorServiceImpl(CarDoorDao carDoorDao) {
+        this.carDoorDao = carDoorDao;
+    }
 
     @Override
     public CarDoor add(CarDoor carDoor) {

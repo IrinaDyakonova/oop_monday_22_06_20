@@ -1,7 +1,7 @@
 package hibernatehw;
 
+import hibernatehw.config.AppConfig;
 import hibernatehw.interfaces.PrintInterface;
-import hibernatehw.lib.Injector;
 import hibernatehw.models.Car;
 import hibernatehw.models.CarDoor;
 import hibernatehw.models.CarWheel;
@@ -10,17 +10,16 @@ import hibernatehw.service.CarService;
 import hibernatehw.service.CarWheelService;
 import java.time.LocalDate;
 import java.util.List;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {
-    private static Injector injector = Injector.getInstance("hibernatehw");
-    private static CarDoorService carDoorService
-            = (CarDoorService) injector.getInstance(CarDoorService.class);
-    private static CarService carService
-            = (CarService) injector.getInstance(CarService.class);
-    private static CarWheelService carWheelService
-            = (CarWheelService) injector.getInstance(CarWheelService.class);
+
 
     public static void main(String[] args) {
+        AnnotationConfigApplicationContext context =
+                new AnnotationConfigApplicationContext(AppConfig.class);
+
+        CarDoorService carDoorService = context.getBean(CarDoorService.class);
 
         CarDoor carDoor1 = new CarDoor();
         carDoor1.openDoor();
@@ -36,6 +35,8 @@ public class Main {
         List<CarDoor> carDoorList;
         carDoorList = carDoorService.getAll();
         carDoorList.stream().peek(PrintInterface::printObjectData);
+
+        CarWheelService carWheelService = context.getBean(CarWheelService.class);
 
         CarWheel carWheel1 = new CarWheel();
         carWheelService.add(carWheel1);
@@ -63,6 +64,8 @@ public class Main {
         car.setMaxSpeed(250);
         car.setPassengerCapacity(8);
         car.setCarWheels(carWheels);
+        CarService carService = context.getBean(CarService.class);
+
         carService.add(car);
 
         carService.getAll().stream().peek(PrintInterface::printObjectData);
