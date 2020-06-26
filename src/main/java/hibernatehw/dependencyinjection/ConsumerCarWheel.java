@@ -1,6 +1,6 @@
-package dependencyinjection;
+package hibernatehw.dependencyinjection;
 
-import models.CarWheel;
+import hibernatehw.models.CarWheel;
 
 @FunctionalInterface
 public interface ConsumerCarWheel {

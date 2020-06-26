@@ -1,4 +1,4 @@
-package interfaces;
+package hibernatehw.interfaces;
 
 public interface PrintInterface {
     default void printObjectData() {
