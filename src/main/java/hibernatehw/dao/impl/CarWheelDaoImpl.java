@@ -2,46 +2,70 @@ package hibernatehw.dao.impl;
 
 import hibernatehw.dao.CarWheelDao;
 import hibernatehw.exeption.DataProcessingException;
-import hibernatehw.lib.Dao;
 import hibernatehw.models.CarWheel;
-import hibernatehw.util.HibernateUtil;
 import java.util.List;
 import javax.persistence.criteria.CriteriaQuery;
 import org.apache.log4j.Logger;
 import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.hibernate.query.Query;
+import org.springframework.stereotype.Repository;
 
-@Dao
+@Repository
 public class CarWheelDaoImpl implements CarWheelDao {
     private static final Logger LOGGER = Logger.getLogger(CarWheelDaoImpl.class);
+
+    private SessionFactory sessionFactory;
+
+    public CarWheelDaoImpl(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
+    }
 
     @Override
     public CarWheel add(CarWheel carWheel) {
         Transaction transaction = null;
-        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
+        Session session = null;
+        try {
+            session = sessionFactory.openSession();
             transaction = session.beginTransaction();
-            Long movieId = (Long) session.save(carWheel);
+            session.save(carWheel);
             transaction.commit();
-            carWheel.setId(movieId);
-            LOGGER.info("carWheel insert");
+            LOGGER.info("carWheel " + carWheel.toString() + " insert");
             return carWheel;
         } catch (Exception e) {
             if (transaction != null) {
                 transaction.rollback();
             }
-            throw new RuntimeException("Can't insert carWheel entity", e);
+            throw new DataProcessingException("Can't insert carWheel entity", e);
+        } finally {
+            if (session != null) {
+                session.close();
+            }
         }
     }
 
     @Override
     public List<CarWheel> getAll() {
-        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
+        try (Session session = sessionFactory.openSession()) {
             CriteriaQuery<CarWheel> criteriaQuery = session
                     .getCriteriaBuilder().createQuery(CarWheel.class);
             criteriaQuery.from(CarWheel.class);
             return session.createQuery(criteriaQuery).getResultList();
         } catch (Exception e) {
             throw new DataProcessingException("Error retrieving all carWheel ", e);
+        }
+    }
+
+    @Override
+    public CarWheel findById(Long id) {
+        try (Session session = sessionFactory.openSession()) {
+            Query<CarWheel> query = session.createQuery(
+                    "From CarWheel where id = :id");
+            query.setParameter("id", id);
+            return query.uniqueResult();
+        } catch (Exception e) {
+            throw new DataProcessingException("Can't get available CarWheel", e);
         }
     }
 }

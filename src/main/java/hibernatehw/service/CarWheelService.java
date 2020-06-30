@@ -8,4 +8,7 @@ public interface CarWheelService {
     CarWheel add(CarWheel carWheel);
 
     List<CarWheel> getAll();
+
+    CarWheel findById(Long id);
+
 }

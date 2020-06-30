@@ -1,6 +1,5 @@
-package hibernatehw;
+package hibernatehw.controllers;
 
-import hibernatehw.config.AppConfig;
 import hibernatehw.interfaces.PrintInterface;
 import hibernatehw.models.Car;
 import hibernatehw.models.CarDoor;
@@ -10,16 +9,27 @@ import hibernatehw.service.CarService;
 import hibernatehw.service.CarWheelService;
 import java.time.LocalDateTime;
 import java.util.List;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import javax.annotation.PostConstruct;
+import org.springframework.stereotype.Component;
 
-public class Main {
+@Component
+public class InjectController {
 
-    public static void main(String[] args) {
-        AnnotationConfigApplicationContext context =
-                new AnnotationConfigApplicationContext(AppConfig.class);
+    private final CarService carService;
+    private final CarWheelService carWheelService;
+    private final CarDoorService carDoorService;
 
-        CarDoorService carDoorService = context.getBean(CarDoorService.class);
+    public InjectController(
+            CarService carService,
+            CarWheelService carWheelService,
+            CarDoorService carDoorService) {
+        this.carService = carService;
+        this.carWheelService = carWheelService;
+        this.carDoorService = carDoorService;
+    }
 
+    @PostConstruct
+    public String inject() {
         CarDoor carDoor1 = new CarDoor();
         carDoor1.openDoor();
         carDoorService.add(carDoor1);
@@ -33,9 +43,6 @@ public class Main {
 
         List<CarDoor> carDoorList;
         carDoorList = carDoorService.getAll();
-        carDoorList.stream().peek(PrintInterface::printObjectData);
-
-        CarWheelService carWheelService = context.getBean(CarWheelService.class);
 
         CarWheel carWheel1 = new CarWheel();
         carWheelService.add(carWheel1);
@@ -61,13 +68,11 @@ public class Main {
         car.setDateOfManufacture(localDate);
         car.setAccelerationTime(10);
         car.setMaxSpeed(250);
+        car.setNumberOfPassengersAtTheMoment(5);
         car.setPassengerCapacity(8);
         car.setCarWheels(carWheels);
-        CarService carService = context.getBean(CarService.class);
-
         carService.add(car);
 
-        carService.getAll().stream().peek(PrintInterface::printObjectData);
-
+        return "Inject add to DB!";
     }
 }

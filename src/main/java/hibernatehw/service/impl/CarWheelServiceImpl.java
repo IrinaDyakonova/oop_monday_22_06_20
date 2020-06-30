@@ -1,16 +1,18 @@
 package hibernatehw.service.impl;
 
 import hibernatehw.dao.CarWheelDao;
-import hibernatehw.lib.Inject;
-import hibernatehw.lib.Service;
 import hibernatehw.models.CarWheel;
 import hibernatehw.service.CarWheelService;
 import java.util.List;
+import org.springframework.stereotype.Service;
 
 @Service
 public class CarWheelServiceImpl implements CarWheelService {
-    @Inject
     private CarWheelDao carWheelDao;
+
+    public CarWheelServiceImpl(CarWheelDao carWheelDao) {
+        this.carWheelDao = carWheelDao;
+    }
 
     @Override
     public CarWheel add(CarWheel carWheel) {
@@ -20,5 +22,10 @@ public class CarWheelServiceImpl implements CarWheelService {
     @Override
     public List<CarWheel> getAll() {
         return carWheelDao.getAll();
+    }
+
+    @Override
+    public CarWheel findById(Long id) {
+        return carWheelDao.findById(id);
     }
 }

@@ -7,4 +7,7 @@ public interface CarDoorDao {
     CarDoor add(CarDoor carDoor);
 
     List<CarDoor> getAll();
+
+    CarDoor findById(Long id);
+
 }
