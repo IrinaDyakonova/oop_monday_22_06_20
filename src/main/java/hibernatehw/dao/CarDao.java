@@ -7,4 +7,6 @@ public interface CarDao {
     Car add(Car car);
 
     List<Car> getAll();
+
+    Car findById(Long id);
 }

@@ -7,4 +7,7 @@ public interface CarWheelDao {
     CarWheel add(CarWheel carWheel);
 
     List<CarWheel> getAll();
+
+    CarWheel findById(Long id);
+
 }

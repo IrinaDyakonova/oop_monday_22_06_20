@@ -2,7 +2,7 @@ package hibernatehw.models;
 
 import hibernatehw.dependencyinjection.ConsumerCarWheel;
 import hibernatehw.interfaces.PrintInterface;
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -17,7 +17,7 @@ public class Car implements PrintInterface, ConsumerCarWheel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private LocalDate dateOfManufacture;
+    private LocalDateTime dateOfManufacture;
     private String engineType;
     private double maxSpeed;
     private double accelerationTime;
@@ -40,11 +40,11 @@ public class Car implements PrintInterface, ConsumerCarWheel {
         this.id = id;
     }
 
-    public LocalDate getDateOfManufacture() {
+    public LocalDateTime getDateOfManufacture() {
         return dateOfManufacture;
     }
 
-    public void setDateOfManufacture(LocalDate dateOfManufacture) {
+    public void setDateOfManufacture(LocalDateTime dateOfManufacture) {
         this.dateOfManufacture = dateOfManufacture;
     }
 

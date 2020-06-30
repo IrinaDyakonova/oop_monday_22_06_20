@@ -9,6 +9,7 @@ import org.apache.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.hibernate.query.Query;
 import org.springframework.stereotype.Repository;
 
 @Repository
@@ -53,6 +54,18 @@ public class CarDoorDaoImpl implements CarDoorDao {
             return session.createQuery(criteriaQuery).getResultList();
         } catch (Exception e) {
             throw new DataProcessingException("Error retrieving all CarDoor ", e);
+        }
+    }
+
+    @Override
+    public CarDoor findById(Long id) {
+        try (Session session = sessionFactory.openSession()) {
+            Query<CarDoor> query = session.createQuery(
+                    "From CarDoor where id = :id");
+            query.setParameter("id", id);
+            return query.uniqueResult();
+        } catch (Exception e) {
+            throw new DataProcessingException("Can't get available CarDoor", e);
         }
     }
 }

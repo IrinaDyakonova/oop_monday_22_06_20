@@ -23,4 +23,9 @@ public class CarDoorServiceImpl implements CarDoorService {
     public List<CarDoor> getAll() {
         return carDoorDao.getAll();
     }
+
+    @Override
+    public CarDoor findById(Long id) {
+        return carDoorDao.findById(id);
+    }
 }

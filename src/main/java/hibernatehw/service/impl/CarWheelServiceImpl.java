@@ -23,4 +23,9 @@ public class CarWheelServiceImpl implements CarWheelService {
     public List<CarWheel> getAll() {
         return carWheelDao.getAll();
     }
+
+    @Override
+    public CarWheel findById(Long id) {
+        return carWheelDao.findById(id);
+    }
 }

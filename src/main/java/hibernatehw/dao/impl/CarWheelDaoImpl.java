@@ -9,6 +9,7 @@ import org.apache.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.hibernate.query.Query;
 import org.springframework.stereotype.Repository;
 
 @Repository
@@ -53,6 +54,18 @@ public class CarWheelDaoImpl implements CarWheelDao {
             return session.createQuery(criteriaQuery).getResultList();
         } catch (Exception e) {
             throw new DataProcessingException("Error retrieving all carWheel ", e);
+        }
+    }
+
+    @Override
+    public CarWheel findById(Long id) {
+        try (Session session = sessionFactory.openSession()) {
+            Query<CarWheel> query = session.createQuery(
+                    "From CarWheel where id = :id");
+            query.setParameter("id", id);
+            return query.uniqueResult();
+        } catch (Exception e) {
+            throw new DataProcessingException("Can't get available CarWheel", e);
         }
     }
 }

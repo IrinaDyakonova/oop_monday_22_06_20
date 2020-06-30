@@ -15,6 +15,7 @@ import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 @ComponentScan(basePackages = {
         "hibernatehw.service",
         "hibernatehw.dao",
+        "hibernatehw.mapper",
 })
 public class AppConfig {
     private Environment env;
